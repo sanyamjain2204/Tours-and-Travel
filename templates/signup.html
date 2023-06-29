@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+   {% include "head.html" %}
+  </head>
+
+<body>
+
+  {% include "header.html" %}
+  
+  <div class="second-page-heading">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h4>Book Prefered Deal Here</h4>
+          <h2>Sign Up Now</h2>
+          
+          <div class="main-button"><a href="/signup">SignUp Now</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="reservation-form">
+    <div class="container">
+      <div class="row">
+        
+        <div class="col-lg-12">
+          <form id="reservation-form" name="gs" method="submit" role="search" action="#">
+            <div class="row">
+              <div class="col-lg-12">
+                <h4>Make Your <em>Registration</em> Through This <em>Form</em></h4>
+              </div>
+              <div class="col-lg-12">
+                  <fieldset>
+                      <label for="Name" class="form-label">Username</label>
+                      <input type="text" name="Name" class="Name" placeholder="Your Name" autocomplete="on" required>
+                  </fieldset>
+              </div>
+              <div class="col-lg-12">
+                <fieldset>
+                    <label for="Name" class="form-label">Email</label>
+                    <input type="email" name="email" class="Name" placeholder="Your Email" autocomplete="on" required>
+                </fieldset>
+            </div>
+            <div class="col-lg-12">
+                <fieldset>
+                    <label for="Name" class="form-label">Password</label>
+                    <input type="password" name="password" class="Name" placeholder="Your Password" autocomplete="on" required>
+                </fieldset>
+            </div>
+            <div class="col-lg-12">
+                <fieldset>
+                    <label for="Name" class="form-label">Re-Password</label>
+                    <input type="password" name="re-pass" class="Name" placeholder="Re-Password" autocomplete="on" required>
+                </fieldset>
+            </div>
+              
+              
+              
+              
+              <div class="col-lg-12">                        
+                  <fieldset>
+                      <button class="main-button">SignUp Now</button>
+                  </fieldset>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {% include "footer1.html" %}
+
+
+  </body>
+
+</html>
